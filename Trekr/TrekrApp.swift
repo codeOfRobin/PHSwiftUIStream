@@ -12,7 +12,7 @@ struct TrekrApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationView {
-                ContentView(location: Location.example)
+                ContentView(location: Locations().primary)
             }
         }
     }
